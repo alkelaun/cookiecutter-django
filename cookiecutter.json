@@ -1,7 +1,7 @@
 {
   "project_name": "My Awesome Project",
   "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
-  "description": "{{ cookie_cutter.project_name}}'s project",
+  "description": "{{ cookiecutter.project_name}}'s project",
   "author_name": "John",
   "domain_name": "thedonnelly.net",
   "email": "{{ cookiecutter.author_name.lower() | trim() |replace(' ', '-') }}@{{ cookiecutter.domain_name.lower() | trim() }}",
